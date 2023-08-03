@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajan Portfolio</title>
+    <style> 
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: rgb(49, 49, 150);
+        color: wheat;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+  
+        align-items: center;
+        height: 70px;
+        background-color: rgb(102, 119, 170);
+    }
+    .left{
+        font-size: 2rem;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        
+    }
+    nav ul li{
+        list-style: none;
+        margin: 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+
+    color: rgb(70, 70, 180);
+}
+.first{
+     display: flex;
+     justify-content: space-around;
+     margin: 40px 0;
+     
+}
+.name{
+    color: rgb(125, 69, 125);
+    font-weight: bold;
+}
+.left1{
+    margin-top: 200px;
+    font-size: 3rem;
+}
+.right1 img{
+  width: 70%;
+margin-left: 200px;
+}
+#element{
+    color: rgb(125, 69, 125);
+}
+
+.hr{
+    margin:40px 84px;
+    border:0;
+    height:1.2px;
+    background: rgb(105, 105, 188);
+    
+}
+.secondsection{
+    margin: auto;
+    height: 50vw;
+}
+.s{ margin-left: 90px;
+    font-size: 3rem;
+}
+n{
+   
+    width: 40%;
+    align-self: center;
+}
+.left2 img{
+    margin-left: 650px;
+    margin-top: 50px;
+    width: 30%;
+}
+.right2{
+    margin-top: 50px;
+     font-size: 3rem;
+     margin-left: 300px;
+}
+.fo{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 750px;
+}
+   </style>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Rajan. S. Chauhan</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section class="first">
+        <div class="left1"><p>Hey There,<span class="name">Rajan</span>  Here.</p>
+        <p>I am a</p>
+        <span id="element"> </span>
+        </div>
+        <div class="right1"><img src="code.png" alt=""></div>
+    </section>
+     <hr class="hr">
+
+<section class="secondsection">
+
+    <h1 class="s">Projects:</h1>
+    <div class="left2"><img src="icon.png" alt=""></div>
+    <div class="right2"><span>Snake Game  |</span>
+    <span>Personal Portfolio  |</span>
+<span>RC Offroad Car  |</span>
+<span>Visitor Counter</span></div>
+
+
+    
+   
+    
+    
+</section>
+
+    </main>
+    <footer><hr></footer>
+    <footer class="fo">
+        Thank You for visiting.</footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Software Developer', 'Web Developer.'],
+          typeSpeed: 50, 
+        });
+      </script>
+</body>
+</html>
